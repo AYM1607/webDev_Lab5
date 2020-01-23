@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+footer {
+    text-align: center;
+}
+
+.video-container {
+    border: 1px solid lightgray;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.video-container > a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#termForm {
+    margin-bottom: 20px;
+}
+
+.thumb {
+    width: 50%;
+    object-fit: contain;
+}
+
+.thumb:hover {
+    cursor: pointer;
+}
